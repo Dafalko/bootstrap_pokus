@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bootstrap Futbal</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <!--Menu-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Bootstrap Futbal</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Domov</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--Mapa-->
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-uppercase"> Adresa: </h3>
+                </br><strong>Univerzita Konštantína a Filozofa v Nitre</strong>
+                    </br><strong>Trieda Andreja Hlinku 1, 949 74 Nitra-Chrenová</strong>
+                    </br><a href="https://www.ukf.sk/"/>https://www.ukf.sk/</a>
+                <div class="embed-responsive embed-responsive-16by9"></div>
+            </div>
+            <div class="col-md-6" style=background-color:white>
+                 <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2653.712554272685!2d18.089252314961033!3d48.30837954722939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b3ee43b2f6763%3A0x75a567f979f5bed3!2sUniverzita+Kon%C5%A1tant%C3%ADna+Filozofa+v+Nitre!5e0!3m2!1ssk!2ssk!4v1462537724105" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+        <!--kontakt form-->
+        <div class="container">
+            <h2 class="text-uppercase"> Kontaktujte nás </h2>
+            <form role="form">
+                <div class="form-group">
+                    <label for="meno"> Meno:</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Zadajte Meno"/>
+                </div>
+                <div class="form-group">
+                    <label for="priezvisko"> Priezvisko:</label>
+                    <input type="text" class="form-control" id="priezvisko" name="priezvisko" placeholder="Zadajte Priezvisko"/>
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Zadajte email"/>
+                </div>
+                <div class="form-group">
+                    <label for="obrazok">Obrázok:</label>
+                    <input id="obrazok" name="obrazok" type="file">
+                </div>  
+                <div class="form-group">
+                    <button type="button" class="btn btn-default">Odoslať</button>
+                </div>
+        </div>
+        <!--odkazy-->
+        <div class="navbar navbar-inverse nabvar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p> Kamencay David © Your Website 2016 </p>  
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://plus.google.com/"><i class="fa fa-google-plus fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
