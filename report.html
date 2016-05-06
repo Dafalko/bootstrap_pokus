@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Bootstrap Futbal</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <!--Menu-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Bootstrap Futbal</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Domov</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="active"><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="nav nav-tabs" >
+            <li class="active"><a data-toggle="tab" href="#home">Tabuľka</a></li>
+            <li><a data-toggle="tab" href="#menu1">Formulár</a></li>
+            <li><a data-toggle="tab" href="#menu2">Futbal</a></li>
+        </ul>
+        <div class="tab-content" >
+            <div id="home" class="tab-pane fade in active" >
+                <h3>Tabuľka</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr><th>Meno</th><th>Priezvisko</th><th>Email</th><th>Detail</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>David</td><td>Kamencay</td><td>kamencay@gmail.com</td>
+                            <td><div class="btn-group">
+                                    <button type="button" class="btn btn-default">Pridať</button>
+                                    <button type="button" class="btn btn-default">Upraviť</button>
+                                    <button type="button" class="btn btn-default">Zmazať</button>
+                                </div></td>
+                        </tr>
+                        <tr>
+                            <td>Peter</td><td>Krajčík</td><td>krajcik@gmail.com</td>
+                            <td><div class="btn-group">
+                                    <button type="button" class="btn btn-default">Pridať</button>
+                                    <button type="button" class="btn btn-default">Upraviť</button>
+                                    <button type="button" class="btn btn-default">Zmazať</button>
+                                </div></td>
+                        </tr>
+                        <tr>
+                            <td>Matúš</td><td>Treha</td><td>treha@gmail.com</td>
+                            <td><div class="btn-group">
+                                    <button type="button" class="btn btn-default">Pridať</button>
+                                    <button type="button" class="btn btn-default">Upraviť</button>
+                                    <button type="button" class="btn btn-default">Zmazať</button>
+                                </div></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+                <h3>Formulár</h3>
+                <form role="form">
+                    <div class="form-group">
+                        <label for="name">Meno:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Zadajte Meno">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Priezvisko:</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Zadajte priezvisko">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Zadajte email">
+                    </div>
+                    <button type="submit" class="btn btn-default">Pridať</button>
+                </form>
+                <p>&nbsp;</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <h2>Real Madrid</h2>
+                <img src="img/real.png"/>
+                <p>
+                    Real Madrid Club de Fútbol je španielsky futbalový veľkoklub hrajúci v španielskej najvyššej futbalovej súťaži – La Lige. Je to jeden z najúspešnejších a najpopulárnejších klubov v histórii futbalu. Má prezývku "biely balet". Klub bol založený v roku 1902 bratmi Juan Padrós a Carlos Padrós, ale právo nosiť titul Real (kráľovský) mu bolo udelené až kráľom Alfonzom XIII.
+                </p>
+                <h2>Barcelona</h2>
+                <img src="img/barcelona.jpg"/>
+                <p>
+                    Futbol Club Barcelona, známy tiež ako Barcelona a familiárne ako Barca je profesionálny futbalový klub v Barcelone,Katalánsku v Španielsku. Klub bol založený[1] dňa 29. novembra 1899 skupinou švajčiarskych, anglických a katalánskych futbalistov pod vedenímJoana Gampera. Klub sa stal symbolom katalánskej kultúry a katalánskej národnosti, a z toho dôvodu pochádza aj motto "Més que un club" (Slovensky: viac ako klub). Oficiálna hymna FC Barcelony je „Cant del Barça“, ktorú napísali Jaume Picas a Josep Maria Espinàsk.[2] Fanúšikovia FC Barcelona sú známi pod prezývkou culés alebo culers.[3] Klub je druhým najbohatším futbalovým klubom na svete z hľadiska príjmov, s ročným obratom 398 miliónov eur. Klub dlhoročne súperí s klubom Real Madrid, a zápasy medzi oboma tímami sú nazývané ako "El Clásico".
+                </p>
+            </div>
+        </div>
+        <!--odkazy-->
+        <div class="navbar navbar-inverse nabvar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p> Kamencay David © Your Website 2016 </p>  
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://plus.google.com/"><i class="fa fa-google-plus fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
